@@ -1,0 +1,16 @@
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="1">
+  <iq:application entry="TestWatchFaceApp" id="59e28684bffb4b2b953961838852627f" launcherIcon="@Drawables.LauncherIcon" name="@Strings.AppName" type="watchface">
+
+    <iq:products>
+      <iq:product id="vivoactive_hr"/>
+    </iq:products>
+
+    <iq:permissions>
+    </iq:permissions>
+
+    <iq:languages>
+      <iq:language>eng</iq:language>
+    </iq:languages>
+
+  </iq:application>
+</iq:manifest>
