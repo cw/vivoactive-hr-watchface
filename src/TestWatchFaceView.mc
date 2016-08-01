@@ -28,7 +28,6 @@ class TestWatchFaceView extends Ui.WatchFace {
     dc.setColor(Gfx.COLOR_BLACK,Gfx.COLOR_BLACK);
     dc.fillRectangle(0,0,dc.getWidth(), dc.getHeight());
       
-    // Draw the flag
     var flag_width = dc.getWidth();
     var flag_height = dc.getHeight() - (2+Gfx.getFontHeight(Gfx.FONT_MEDIUM));
     var yellow_height = flag_height / 2;
@@ -36,6 +35,7 @@ class TestWatchFaceView extends Ui.WatchFace {
     var red_height = blue_height;
       
     /*
+    // Draw the flag
     dc.setColor(Gfx.COLOR_YELLOW,Gfx.COLOR_BLACK);
     dc.fillRectangle(0,0,flag_width, yellow_height);
     dc.setColor(Gfx.COLOR_BLUE,Gfx.COLOR_BLACK);
