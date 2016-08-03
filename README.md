@@ -7,4 +7,8 @@ Garmin's SDK includes instructions to build projects with Eclipse, but I don't w
 Primarily meant as a bootstrap watch face project as I learn more about the Connect IQ SDK.
 
 ## Building the watch face
-I run `build.sh` from a Git Bash session on Windows. `build.sh` expects the following environmental variables set: CONNECTIQ_SDK_PATH and CONNECTIQ_DEV_KEY_PATH.
+Here's what I do:
+ 1. start the device simulator
+ 2. run `build.sh` from a Git Bash session on Windows
+
+`build.sh` expects the following environmental variables set: CONNECTIQ_SDK_PATH and CONNECTIQ_DEV_KEY_PATH.
