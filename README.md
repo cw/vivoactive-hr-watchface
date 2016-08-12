@@ -1,5 +1,5 @@
 # Vivoactive HR Watchface
-[Garmin Connect IQ](http://developer.garmin.com/connect-iq/overview) 2.1 (preview) based watch face targeting the [vívoactive HR](https://forums.garmin.com/forumdisplay.php?584-vivoactive-HR)
+[Garmin Connect IQ](http://developer.garmin.com/connect-iq/overview) 2.1 based watch face targeting the [vívoactive HR](https://forums.garmin.com/forumdisplay.php?584-vivoactive-HR)
 
 Garmin's SDK includes instructions to build projects with Eclipse, but I don't want to use Eclipse. This project provides a `build.sh` shell script instead of requiring Eclipse.
 
