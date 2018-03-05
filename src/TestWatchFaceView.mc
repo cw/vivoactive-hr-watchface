@@ -3,6 +3,8 @@ using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 
+// Originally copied from https://github.com/achura/ColombiaDigital/blob/master/source/ColombiaDigitalView.mc
+
 class TestWatchFaceView extends Ui.WatchFace {
 
   function initialize() {
