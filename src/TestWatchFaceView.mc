@@ -35,16 +35,6 @@ class TestWatchFaceView extends Ui.WatchFace {
     var yellow_height = flag_height / 2;
     var blue_height = flag_height / 4;
     var red_height = blue_height;
-      
-    /*
-    // Draw the flag
-    dc.setColor(Gfx.COLOR_YELLOW,Gfx.COLOR_BLACK);
-    dc.fillRectangle(0,0,flag_width, yellow_height);
-    dc.setColor(Gfx.COLOR_BLUE,Gfx.COLOR_BLACK);
-    dc.fillRectangle(0,yellow_height, flag_width, blue_height);
-    dc.setColor(Gfx.COLOR_RED,Gfx.COLOR_BLACK);
-    dc.fillRectangle(0,yellow_height+blue_height, flag_width, red_height);
-    */
     
     // Draw the time
     var clockTime = Sys.getClockTime();
