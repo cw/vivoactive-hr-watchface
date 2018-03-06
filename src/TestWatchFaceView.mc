@@ -55,10 +55,12 @@ class TestWatchFaceView extends Ui.WatchFace {
 
     // Draw the battery percentage
     var batString = Lang.format("$1$%", [Sys.getSystemStats().battery.format("%02d")]);
-    dc.drawText((dc.getWidth()-batString.length())/2, yellow_height+blue_height+red_height +1, Gfx.FONT_MEDIUM, batString, Gfx.TEXT_JUSTIFY_CENTER);
+    var textX = (dc.getWidth() - batString.length()) / 2;
+    var textY = yellow_height + blue_height + red_height + 1;
+    dc.drawText(textX, textY, Gfx.FONT_MEDIUM, batString, Gfx.TEXT_JUSTIFY_CENTER);
       
     // Draw the date
-    var date = Time.Gregorian.info(Time.now(),Time.FORMAT_LONG);
+    var date = Time.Gregorian.info(Time.now(), Time.FORMAT_LONG);
     var dateString = Lang.format("$1$ $2$", [date.day, date.month]);
     dc.drawText(dc.getWidth()-dateString.length(),yellow_height+blue_height+red_height +1,Gfx.FONT_MEDIUM, dateString, Gfx.TEXT_JUSTIFY_RIGHT);
   }
